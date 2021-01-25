@@ -157,7 +157,7 @@
             });
         } else if (type === 'url') {
             var audioPath = data;
-            addAudioForName(el, audioPath);
+            addAudioForName(el, [audioPath]);
         }
     }
 })();
